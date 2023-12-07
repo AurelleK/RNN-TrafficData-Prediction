@@ -1,1 +1,3 @@
 # RNN-TrafficData-Prediction
+this git provide a proposed RNN architecture with two sublayers (sigmoid and Gaussian) in the hidden layer that loop together, enabling the learning process to combine incremental learning (Restricted Coulomb Energy) at the local level with backpropagation learning at the global level. When applied to a dataset of cellular data traffic collected from a telecommunication operator in Cameroon, the proposed RNN architecture achieves a root mean square error (RMSE) of 14.21 and a mean absolute error (MAE) of 8.62 during the test phase.
+the code was write with jupyter notebook with Tensorflow 2.12
